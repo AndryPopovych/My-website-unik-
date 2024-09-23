@@ -1,2 +1,2 @@
-index.html - Main pago of website
+index.html - Main page of website
 v1.0
