@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.schedule {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.schedule th, .schedule td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.schedule th {
+    background-color: #00a1ad;
+    color: white;
+    font-size: 18px;
+}
+
+.schedule td {
+    font-size: 16px;
+}
+
+.subject {
+    font-weight: bold;
+}
+
+.room {
+    color: #555;
+}
+
+.teacher {
+    color: #777;
+    font-size: 14px;
+}
+
+.monday { background-color: #f4ecd8; }
+.tuesday { background-color: #d7e8f4; }
+.wednesday { background-color: #e6f4d7; }
+.friday { background-color: #f4d7e8; }
+.saturday { background-color: #a5c7e4; }
+
+.info-button {
+    background-color: #00a1ad;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.info-button:hover {
+    background-color: #007f8b;
+}
